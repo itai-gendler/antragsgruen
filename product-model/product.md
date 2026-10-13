@@ -49,3 +49,7 @@
 # Antragsgrün
 
 Antragsgrün supports preparing, submitting, supporting, discussing, screening and administering consultation motions and amendments. Proposed procedure keeps recommendations, alternative texts and proposer feedback separate from document disposition. Assembly tools incorporate amendments, consolidate text, manage agenda and debates, operate speaking lists and conduct votings.
+
+## Intent
+
+Antragsgrün lets NGOs, political parties and social initiatives collaboratively discuss resolutions, party platforms and amendments online, and supports their meetings with votings and speaking lists.
