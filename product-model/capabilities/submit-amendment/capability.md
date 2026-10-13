@@ -41,4 +41,4 @@
 
 # Submit amendment
 
-Confirmation rechecks the saved draft and applies the stated submission outcome; Modify explicitly returns to editing. The selected outcome is Collecting.
+Confirmation rechecks the saved draft and applies the stated submission outcome; Modify explicitly returns to editing. The supporter mode and screening setting decide which.

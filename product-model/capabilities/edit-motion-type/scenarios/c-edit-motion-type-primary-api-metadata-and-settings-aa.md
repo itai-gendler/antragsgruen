@@ -35,6 +35,7 @@
             "Participation policies",
             "Deadlines",
             "Support thresholds",
+            "Supporter mode",
             "Screening",
             "Amendment settings",
             "Flags"

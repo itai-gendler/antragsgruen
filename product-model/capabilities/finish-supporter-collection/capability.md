@@ -38,4 +38,4 @@
 
 # Finish supporter collection
 
-Explicit completion records the awaiting-screening/published outcome after deadline and ordinary/female threshold checks. The selected outcome is Amendment awaiting screening.
+Explicit completion records the awaiting-screening/published outcome after deadline and ordinary/female threshold checks. It exists only while the document's supporter mode collects supporters before publication.

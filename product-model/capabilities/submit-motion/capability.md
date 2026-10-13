@@ -41,4 +41,4 @@
 
 # Submit motion
 
-Confirmation rechecks the saved draft and applies collecting, unscreened or published submission; Modify explicitly returns to draft editing. The selected outcome is Collecting.
+Confirmation rechecks the saved draft and applies collecting, unscreened or published submission; Modify explicitly returns to draft editing. The Motion type's supporter mode and screening setting decide which.

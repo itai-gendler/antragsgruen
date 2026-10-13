@@ -23,6 +23,41 @@
       }
     },
     {
+      "text": "The Amendment's supporter mode collects supporters before publication, and the Amendment, initiated by a person, still lacks its required supporters.",
+      "kind": "condition",
+      "actor": "visitor",
+      "entities": [
+        {
+          "entity": "amendment",
+          "effect": "reads",
+          "facts": [
+            "Initiators"
+          ]
+        },
+        {
+          "entity": "supporter",
+          "effect": "reads",
+          "facts": [
+            "Role",
+            "Gender"
+          ]
+        },
+        {
+          "entity": "motion-type",
+          "effect": "reads",
+          "facts": [
+            "Supporter mode",
+            "Support thresholds"
+          ]
+        }
+      ],
+      "contexts": {
+        "route": {
+          "place": "web::public::amendment-submission"
+        }
+      }
+    },
+    {
       "text": "Confirmation saves the Amendment in Collecting with submission information; supporter collection remains unfinished.",
       "kind": "product",
       "actor": "visitor",
@@ -78,6 +113,11 @@
       "kind": "code",
       "role": "implementation",
       "target": "models/settings/Permissions.php"
+    },
+    {
+      "kind": "code",
+      "role": "implementation",
+      "target": "models/db/IMotion.php#iNeedsCollectionPhase"
     }
   ]
 }

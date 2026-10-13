@@ -49,7 +49,7 @@ Voting information kept by Antragsgrün.
 - **Order** — Ballot and item ordering.
 - **Assignments** — Document and debate associations.
 - **Answers** — Configured answers.
-- **Majority and quorum** — Decision configuration.
+- **Majority and quorum** — Majority type (simple, absolute or two-thirds) and quorum type.
 - **Participation policy** — Voting participation configuration.
 - **Limits** — Applicable group and default voting limits.
 - **Publicity** — Current result and individual-vote disclosure configuration.

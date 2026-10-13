@@ -47,4 +47,4 @@
 
 # Create motion
 
-Browser creation persists a draft before confirmation; API creation immediately takes its configured submission outcome. The selected outcome is Collecting.
+Browser creation persists a draft before confirmation; API creation immediately takes its configured submission outcome.

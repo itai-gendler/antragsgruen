@@ -17,6 +17,42 @@
       }
     },
     {
+      "text": "The Motion type's supporter mode is initiator only, supporters named by the initiator or no initiator, or the Motion, not initiated by a person or already supported enough, needs no collection; and the Motion type screens Motions.",
+      "kind": "condition",
+      "actor": "visitor",
+      "entities": [
+        {
+          "entity": "motion",
+          "effect": "reads",
+          "facts": [
+            "Initiators"
+          ]
+        },
+        {
+          "entity": "supporter",
+          "effect": "reads",
+          "facts": [
+            "Role",
+            "Gender"
+          ]
+        },
+        {
+          "entity": "motion-type",
+          "effect": "reads",
+          "facts": [
+            "Supporter mode",
+            "Support thresholds",
+            "Screening"
+          ]
+        }
+      ],
+      "contexts": {
+        "route": {
+          "place": "antragsgruen-api::public"
+        }
+      }
+    },
+    {
       "text": "API creation saves the Motion and its sections/initiators in Unscreened, awaiting screening.",
       "kind": "product",
       "actor": "visitor",
@@ -104,6 +140,11 @@
       "kind": "code",
       "role": "implementation",
       "target": "models/settings/Permissions.php"
+    },
+    {
+      "kind": "code",
+      "role": "implementation",
+      "target": "models/db/Motion.php#setInitialCreated"
     }
   ]
 }
